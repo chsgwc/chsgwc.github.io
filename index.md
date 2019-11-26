@@ -6,4 +6,4 @@
 
 layout: home
 ---
-![myimg](/images/poster.pdf)
+![myimg](/images/poster.png)
