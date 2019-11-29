@@ -1,12 +1,13 @@
 ---
 layout: page
-title: Projects
+title: Posts
 permalink:
 ---
-<ol>
-  {% for post in site.posts %}
-    <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
-    </li>
-  {% endfor %}
-</ol>
+{% for tags in site.tags %}
+  <h3>{{tags[0]}}</h3>
+  <ul>
+    {% for post in tags[1] %}
+      <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+{% endfor %}

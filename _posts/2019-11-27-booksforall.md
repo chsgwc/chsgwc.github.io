@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Books for All
-permalink:
+tags: Projects
 ---
 
 * placed third at regionals in Technovation (2018)

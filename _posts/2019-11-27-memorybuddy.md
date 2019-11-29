@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Memory Buddy
-permalink:
+tags: Projects
 ---
 
 * not yet ranked
