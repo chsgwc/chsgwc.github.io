@@ -3,20 +3,10 @@ layout: page
 title: Projects
 permalink:
 ---
-
-[Books for All](https://github.com/chsgwc/books-for-all-app)
-  * placed third at regionals in Technovation (2018)
-  * description
-  * created by ...
-
-
-Food4Families
-  * placed as international semifinalists in Technovation (2018)
-  * description
-  * created by ...
-
-
-Memory Buddy
-  * not yet ranked
-  * description
-  * created by ...
+<ol>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
+</ol>
